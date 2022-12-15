@@ -48,7 +48,6 @@ body {
   object-fit: contain;
 }
 .container:hover .arrow-circle {
-  border-color: #fcee1f;
   background-color: #fcee1f;
 }
 .container:hover .arrow-circle a {
