@@ -59,7 +59,7 @@ body {
         background-color: #fcee1f;
 
         a {
-            animation: arrow 1s linear forwards;
+            animation: arrow 0.5s ease-in-out forwards;
         }
     }
 }
@@ -70,21 +70,17 @@ body {
         opacity: 1;
     }
 
-    45% {
-        transform: translate(45px, -45px);
+    49% {
+        transform: translate(32px, -32px);
         opacity: 1;
     }
 
-    46% {
+    50% {
         opacity: 0;
+        transform: translate(-32px, 32px);
     }
 
-    55% {
-        transform: translate(-45px, 45px);
-        opacity: 0;
-    }
-
-    56% {
+    51% {
         opacity: 1;
     }
 

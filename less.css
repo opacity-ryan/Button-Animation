@@ -52,25 +52,22 @@ body {
   background-color: #fcee1f;
 }
 .container:hover .arrow-circle a {
-  animation: arrow 1s linear forwards;
+  animation: arrow 0.5s ease-in-out forwards;
 }
 @keyframes arrow {
   0% {
     transform: translate(0, 0);
     opacity: 1;
   }
-  45% {
-    transform: translate(45px, -45px);
+  49% {
+    transform: translate(32px, -32px);
     opacity: 1;
   }
-  46% {
+  50% {
     opacity: 0;
+    transform: translate(-32px, 32px);
   }
-  55% {
-    transform: translate(-45px, 45px);
-    opacity: 0;
-  }
-  56% {
+  51% {
     opacity: 1;
   }
   100% {
